@@ -1,0 +1,505 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    .cardBottom {
+        text-align: left;
+        padding: 0 0 0 10px;
+        position: absolute;
+        bottom: 10px;
+    }
+
+    #KartArkaRenk {
+        background: #f2f2f2;
+    }
+
+    .yazi {
+        padding: 0 10px 0 10px;
+    }
+
+    .YoutubeYazi {
+        color: #cc1f2d !important;
+        text-transform: uppercase !important;
+        font-weight: bolder !important;
+        text-align: left !important;
+        font-family: 'Montserrat', sans-serif !important;
+        text-align: left !important;
+        cursor: pointer !important;
+    }
+</style>
+
+<section id="home" class="hero-section d-flex align-items-center" style="background:#cc1f2d">
+    <div class="container ">
+        <div class="row hero-wrap align-items-center baslikresimyukseklik">
+            <div class="col-md-6">
+                <div class="hero-content">
+                    <h1 style="font-family: 'Montserrat', sans-serif;">eğitiMCN</h1>
+                    <p style="color:white;font-size:18px;font-family:'Titillium Web', sans-serif">EĞİTİM TEKNOLOJİ İLE GÜÇLENİYOR</p>
+                    <p style="color:white;font-family:'Titillium Web', sans-serif;font-size:17px;text-align:justify">EğitiMCN, Türkiye’de teknoloji yardımıyla öğrenmek isteyenlerin eğitime ulaşmasını sağlayan bağımsız içerik oluşturucuların bir araya geldiği platformdur. Dijital medya platformlarında eğitim içeriklerinin dağıtımı, korunması ve üretimi için hizmetler ve destekler sunuyoruz.</p>
+                </div>
+            </div>
+            <div class="col-md-6  d-lg-block d-md-block">
+                <div class="hero-content">
+                    <img src="~/Content/img/imagee.png" alt="img" class="baslikresimboyut">
+                </div>
+            </div>
+        </div>
+    </div>
+</section><!--hero-section-->
+<!--Services-->
+
+<section id="service" class="service-section bd-bottom padding">
+    <div class="container">
+        <div class="section-heading mb-40 text-center wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1000ms">
+            <h2 style="font-family:'Montserrat',sans-serif;padding-bottom:20px; ">Hizmetler</h2>
+        </div>
+
+
+
+        <div class="row service-wrap">
+            <div class="col-lg-4 col-sm-6 pd-15">
+
+                <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                    <div class="flipper">
+                        <div class="front" style="background-color:white;">
+                            <img src="~/Content/img/telif_korumasi.png" alt="Avatar" style="padding:15px 0 0 0;position:absolute;left:10px;width:64px;">
+
+
+                            <div style="width:82%;padding:90px 0 0 10px;text-align:left">
+                                <h3>Telif Koruması ve Hak Yönetimi</h3>
+
+                            </div>
+                            <div style="width:100%;text-align:left;">
+                                <p class="yazi" style="text-align:justify;width:100%">YouTube’da telif haklarınızı koruyor ve tüm içeriklerinizi en güvenli yoldan paylaşmanızı sağlayan profesyonel telif hakları yönetimi araçlarını kullanıyoruz. </p>
+                            </div>
+                            <div class="cardBottom">
+                                <a class="read-more YoutubeYazi">YOUTUBE</a>
+                            </div>
+                        </div>
+                        <div class="back" id="KartArkaRenk">
+                            <div style="width:82%;margin:45px 0 0 0;padding:0 0 0 8px;text-align:left">
+                                <h3>Telif Koruması ve Hak Yönetimi</h3>
+                            </div>
+                            <div style="width:100%;text-align:left">
+                                <p class="yazi" style="text-align:justify">YouTube’da telif haklarınızı koruyor ve tüm içeriklerinizi en güvenli yoldan paylaşmanızı sağlayan profesyonel telif hakları yönetimi araçlarını kullanıyoruz.İtibar ve kriz yönetimi politikasıyla içerikleriniz ve kanalınız tam güvence altında.</p>
+
+                            </div>
+                            <div class="cardBottom">
+                                <a class="read-more YoutubeYazi">YOUTUBE</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            @*2.kısım*@
+            <div class="col-lg-4 col-sm-6 pd-15">
+
+                <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                    <div class="flipper">
+
+                        <div class="front" style="background-color:white">
+
+                            <img src="~/Content/img/kitle_buyutme.png" alt="Avatar" style="padding:15px 0 0 0;position:absolute;left:10px;width:64px;">
+
+
+                            <div style="width:100%;text-align:left;padding:75px 0 0 8px">
+                                <h3 style="padding:15px 0 0 0">Kitle Büyütme ve Geliştirme</h3>
+                            </div>
+                            <div style="width:100%;text-align:left">
+                                <p class="yazi" style="text-align:justify">EğitiMCN’in sunduğu kanal yönetimi, analitik rapor analizi, YouTube SEO, kanal tasarımı, stüdyo, teknik destek ve doğru üretim planlaması hizmetleri sayesinde kitleniz giderek büyüyen sadık takipçilere dönüşüyor. </p>
+
+                            </div>
+                            <div class="cardBottom">
+                                <a class="read-more YoutubeYazi">YOUTUBE</a>
+                            </div>
+                        </div>
+                        <div class="back" id="KartArkaRenk">
+
+                            <div style="width:100%;text-align:left;padding:45px 0 0 8px">
+                                <h3>Kitle Büyütme ve Geliştirme</h3>
+                            </div>
+                            <div style="width:100%;text-align:left">
+                                <p class="yazi" style="text-align:justify">EğitiMCN’in sunduğu kanal yönetimi, analitik rapor analizi, YouTube SEO, kanal tasarımı, stüdyo, teknik destek ve doğru üretim planlaması hizmetleri sayesinde kitleniz giderek büyüyen sadık takipçilere dönüşüyor.</p>
+
+                            </div>
+                            <div class="cardBottom">
+                                <a class="read-more YoutubeYazi">YOUTUBE</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            @*3.kısım*@
+
+            <div class="col-lg-4 col-sm-6 pd-15">
+
+                <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                    <div class="flipper">
+
+                        <div class="front" style="background-color:white">
+
+                            <img src="~/Content/img/gelir_optimizasyonu.png" alt="Avatar" style="padding:15px 0 0 0;position:absolute;left:10px;width:64px;">
+
+
+                            <div style="width:92%;margin:70px 0 0 10px">
+                                <h3 style="padding:18px 0 0 0;text-align:left;">Gelir Optimizasyonu ve Pazarlama</h3>
+                            </div>
+                            <div style="width:100%;text-align:left">
+                                <p class="yazi" style="text-align:justify;">EğitiMCN, YouTube gelirinize, kitle büyütme hizmetlerine paralel olarak doğru stratejiler ve analizler ile düzenli olarak artan bir ivme kazandırıyor. </p>
+
+                            </div>
+                            <div class="cardBottom">
+                                <a class="read-more YoutubeYazi">YOUTUBE</a>
+                            </div>
+                        </div>
+                        <div class="back" id="KartArkaRenk">
+
+                            <div style="width:92%;text-align:left;padding:15px 0 0 10px">
+                                <h3>Gelir Optimizasyonu ve Pazarlama</h3>
+                            </div>
+                            <div style="width:100%;text-align:left">
+                                <p class="yazi" style="text-align:justify">EğitiMCN, YouTube gelirinize, kitle büyütme hizmetlerine paralel olarak doğru stratejiler ve analizler ile düzenli olarak artan bir ivme kazandırıyor. YouTube kanalınız ve videolarınıza özel reklam, pazarlama, influencer network ve marka anlaşmaları gibi ekstra gelir getirici ek fırsatlar sunuyoruz.</p>
+
+                            </div>
+                            <div class="cardBottom">
+                                <a class="read-more YoutubeYazi">YOUTUBE</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            @*4.kısım*@
+
+            <div class="col-lg-4 col-sm-6 pd-15">
+
+                <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                    <div class="flipper">
+
+                        <div class="front" style="background-color:white">
+
+                            <img src="~/Content/img/sosyal_uretim.png" alt="Avatar" style="padding:15px 0 0 0;position:absolute;left:10px;width:64px;">
+
+
+                            <div style="width:100%;text-align:left;padding:95px 0 0 8px;">
+                                <h3>Sosyal Hesap Yönetimi</h3>
+                            </div>
+                            <div style="width:100%;text-align:left">
+                                <p class="yazi" style="text-align:justify;">Sosyal Medya içerikleriniz özenle seçilerek stratejik planlama takviminde yayınlanır.  </p>
+
+                            </div>
+                            <div class="cardBottom">
+                                <a class="read-more YoutubeYazi">SOSYAL MEDYA</a>
+                            </div>
+                        </div>
+                        <div class="back" id="KartArkaRenk">
+
+                            <div style="width:100%;text-align:left;padding:20px 0 0 8px">
+                                <h3>Sosyal Hesap Yönetimi</h3>
+                            </div>
+                            <div style="width:100%;text-align:left">
+                                <p class="yazi" style="text-align:justify">Sosyal Medya içerikleriniz özenle seçilerek stratejik planlama takviminde yayınlanır. Gönderilerin etkileşimleri ve analitik raporlama güncellemeleriyle dönüşümlerin artması sağlanır. Planlı yönetim sürecimiz sayesinde kitleniz daha kısa sürede büyür, olağan dışı krizleri daha sakin atlatabilirsiniz.</p>
+
+                            </div>
+                            <div class="cardBottom">
+                                <a class="read-more YoutubeYazi">SOSYAL MEDYA</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            @*5.kısım*@
+
+
+            <div class="col-lg-4 col-sm-6 pd-15">
+
+                <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                    <div class="flipper">
+
+                        <div class="front" style="background-color:white">
+
+                            <img src="~/Content/img/sosyal_reklam.png" alt="Avatar" style="padding:15px 0 0 0;position:absolute;left:10px;width:64px;">
+
+
+                            <div style="width:100%;text-align:left;padding:90px 0 0 8px;">
+                                <h3>Sosyal Reklam ve Pazarlama</h3>
+                            </div>
+                            <div style="width:100%;">
+                                <p class="yazi" style="text-align:justify">Markalar, sosyal hesaplar ve fenomenler sizinle çalışmak isteyecektir. Bu süreci itibar yönetim ilkeleri doğrultusunda belirli bir stratejiyle sizin adınıza yönetiyoruz. </p>
+
+                            </div>
+                            <div class="cardBottom">
+                                <a class="read-more YoutubeYazi">SOSYAL MEDYA</a>
+                            </div>
+                        </div>
+                        <div class="back" id="KartArkaRenk">
+
+                            <div style="width:100%;padding:45px 0 0 8px;text-align:left">
+                                <h3>Sosyal Reklam ve Pazarlama</h3>
+                            </div>
+                            <div style="width:100%;">
+                                <p class="yazi" style="text-align:justify">Markalar, sosyal hesaplar ve fenomenler sizinle çalışmak isteyecektir. Bu süreci  itibar yönetim ilkeleri doğrultusunda belirli bir stratejiyle sizin adınıza yönetiyoruz. Sosyal e-ticaret, reklam ve pazarlama çalışmaları yaparken marka imajınızı koruyoruz.</p>
+
+                            </div>
+                            <div class="cardBottom">
+                                <a class="read-more YoutubeYazi">SOSYAL MEDYA</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            @*6.kısım*@
+            <div class="col-lg-4 col-sm-6 pd-15">
+
+                <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                    <div class="flipper">
+
+                        <div class="front" style="background-color:white">
+
+                            <img src="~/Content/img/sosyal_hesap_yonetimi.png" alt="Avatar" style="padding:15px 0 0 0;position:absolute;left:10px;width:64px;">
+
+
+                            <div style="width:100%;text-align:left;padding:90px 0 0 8px">
+                                <h3>Sosyal Üretim</h3>
+                            </div>
+                            <div style="width:100%;">
+                                <p class="yazi" style="text-align:justify;">Sosyal medya içeriklerinizi kreatif projelerle ilk sizin yapacağınız öneriler geliştiriyoruz. </p>
+
+                            </div>
+                            <div class="cardBottom">
+                                <a class="read-more YoutubeYazi" style="color:#cc1f2d;text-transform: uppercase;font-weight: 600; text-align:left">SOSYAL MEDYA</a>
+                            </div>
+                        </div>
+                        <div class="back" id="KartArkaRenk">
+
+                            <div style="width:100%;text-align:left;padding:45px 0 0 8px">
+                                <h3>Sosyal Üretim</h3>
+                            </div>
+                            <div style="width:100%;">
+                                <p class="yazi" style="text-align:justify;">Sosyal medya içeriklerinizi kreatif projelerle ilk sizin yapacağınız öneriler geliştiriyoruz. Tecrübelerimiz  sosyal medyada farklılaşmanın önemli olduğunu ispatlamaktadır. İmaj, satış, e-ticaret gibi farklılaşan tasarım konseptleri geliştiriyoruz.</p>
+
+                            </div>
+                            <div class="cardBottom">
+                                <a class="read-more YoutubeYazi" style="color:#cc1f2d;text-transform: uppercase;font-weight: 600; text-align:left">SOSYAL MEDYA</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+</section><!--service-section-->
+<!--button-->
+<section id="about" class="about-section">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12" style="text-align:center;background:#cc1f2d; padding:15px 0 10px 0">
+                <div class="col-md-12"><p style="color:#fff;padding-top:20px;font-size:22px;">Eğitimin geleceği için birlikte neler yapabiliriz, daha fazlası için;</p></div>
+
+                <a href="#about" class="btn aramiza-katilin" data-toggle="modal" data-target="#contact-modal" style="margin-bottom:50px;margin-top:20px;box-shadow: 2px 2px 2px 0px #D6D6D6;">İletişime Geç</a>
+            </div>
+            <hr />
+        </div>
+    </div>
+</section>
+
+
+<!-- Contact Modal(buton içerik) -->
+<div class="modal fade" id="contact-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">İletişime Geçin</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <label for="recipient-name" class="col-form-label">Ad Soyad:</label>
+                        <input type="text" class="form-control" id="name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="col-form-label">E-Posta:</label>
+                        <input type="email" class="form-control" id="email" />
+                    </div>
+                    <div class="form-group">
+                        <label for="accountLink" class="col-form-label">YouTube Kanal veya Sosyal Medya Hesap Linki: </label>
+                        <input type="text" class="form-control" id="accountLink" />
+                    </div>
+                    <div class="form-group">
+                        <label for="message" class="col-form-label">Mesaj:</label>
+                        <textarea class="form-control" id="message" rows="5"></textarea>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Çıkış</button>
+                <button type="button" class="btn btn-danger" onclick="basvuruYap();">Mesaj Gönder</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--Portfolio-->
+<section id="portfolio" class="portfolio-section bg-grey padding" style="background:#f5f3f4">
+    <div class="container">
+        <div class="section-heading mb-40 text-center wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1000ms">
+            <h2>İş Ortakları</h2>
+        </div>
+
+        <div class="row portfolio-items">
+            <div class="col-lg-3 col-sm-3 pd-15 single-item branding design">
+                <div class="portfolio-box">
+                    <center> <img src="~/Content/img/facebook.png" alt="img " class="portfolioresim"></center>
+
+                    <br />
+                    <div>
+                        <p style="font-size:20px;text-align:center"><i class="fa fa-star" style="color:darkgrey"></i> Abone Sayısı</p>
+                        <p style="font-size:20px; text-align:center; padding-left:11px;"><i class="fa fa-star" style="color:darkgrey"></i> İzlenme Sayısı</p>
+                    </div>
+
+                </div>
+            </div><!-- /Portfolio-1 -->
+            <div class="col-lg-3 col-sm-3 pd-15 single-item design wordpress">
+                <div class="portfolio-box">
+                    <center><img src="~/Content/img/instagram.png" alt="img" class="portfolioresim"></center>
+                    <br />
+                    <div>
+                        <p style="font-size:20px; text-align:center"><i class="fa fa-star" style="color:darkgrey"></i> Abone Sayısı</p>
+                        <p style="font-size:20px; text-align:center;padding-left:11px;"><i class="fa fa-star" style="color:darkgrey"></i> İzlenme Sayısı</p>
+                    </div>
+                </div>
+            </div><!-- /Portfolio-2 -->
+            <div class="col-lg-3 col-sm-3 pd-15 single-item wordpress marketing">
+                <div class="portfolio-box">
+                    <center> <img src="~/Content/img/twitter.png" alt="img" class="portfolioresim"></center>
+                    <br />
+                    <div>
+                        <p style="font-size:20px;text-align:center"><i class="fa fa-star" style="color:darkgrey"></i> Abone Sayısı</p>
+                        <p style="font-size:20px;text-align:center;padding-left:11px;"><i class="fa fa-star" style="color:darkgrey"></i> İzlenme Sayısı</p>
+                    </div>
+                </div>
+            </div><!-- /Portfolio-3 -->
+            <div class="col-lg-3 col-sm-3 pd-15 single-item branding marketing">
+                <div class="portfolio-box">
+                    <center> <img src="~/Content/img/linkedin.png" alt="img" class="portfolioresim"></center>
+                    <br />
+                    <p style="font-size:20px; text-align:center"><i class="fa fa-star" style="color:darkgrey"></i> Abone Sayısı</p>
+                    <p style="font-size:20px;text-align:center;padding-left:11px;"><i class="fa fa-star" style="color:darkgrey"></i> İzlenme Sayısı</p>
+                </div>
+            </div><!-- /Portfolio-4 -->
+        </div>
+    </div>
+</section><!-- /testimonial-section -->
+<!--erişim-->
+<br /><br />
+
+<section>
+    <div class="section-heading mb-40 text-center wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1000ms">
+        <h2>Erişim Rakamları</h2>
+    </div>
+    <br />
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4" style="text-align:center">
+                <img src="~/Content/img/abone_sayisi.png" alt="icon" class="mobilresim">
+                <div class="timer count-title count-number rakamfont" data-to="50000" data-speed="1500"></div> <br />
+                <div style="text-align:center;padding-top:15px;"><b>Abone Sayısı</b></div>
+                <div class="mcizgi"></div>
+
+            </div>
+            <div class="col-md-4" style="text-align:center">
+                <img src="~/Content/img/izlenme_sayisi.png" class="mobilresim" alt="icon">
+                <div class="timer count-title count-number rakamfont" data-to="50000" data-speed="1500"></div> <br />
+                <div style="text-align:center;padding-top:15px;"><b>İzlenme Sayısı</b></div>
+                <div class="mcizgi"></div>
+            </div>
+            <div class="col-md-4" style="text-align:center">
+                <img src="~/Content/img/video_sayisi.png" class="mobilresim" alt="icon">
+                <div class="timer count-title count-number rakamfont" data-to="50000" data-speed="1500"> </div> <br />
+                <div style="text-align:center;padding-top:15px;"><b>Video Sayısı</b></div>
+
+            </div>
+        </div>
+    </div>
+</section>
+<BR /><BR />
+
+<section id="contact" class="contact-section padding" style="background:#cc1f2d">
+    <!-- Google Map JS -->
+    <iframe id="google_map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5357.790217460136!2d29.00383989618251!3d41.091761401279214!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab67c162a73c9%3A0x4f43dc821bb7dd1f!2zNDHCsDA1JzM1LjUiTiAyOcKwMDAnMTMuNyJF!5e0!3m2!1str!2str!4v1518183720242" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+    <div class="container">
+        <div class="row contact-wrap">
+            <div class="col-md-12">
+                <div class="contact-info">
+                    <h2>İletişim</h2>
+
+                    <ul>
+                        @*<li><i class="ti-location-pin"></i>Yeşilce Mahallesi, Emirşah Sokagi No:11, 34418 Kağıthane/İstanbul</li>*@
+                        @*<li><i class="ti-mobile"></i>(0212) 270 86 42</li>*@
+                        <li style="font-family: 'Titillium Web', sans-serif;font-size: 15px;"><i class="ti-email"></i> info@egitimcn.com</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section><!-- /Contact Section -->
+
+
+
+<script>
+
+</script>
+
+<a data-scroll href="#header" id="scroll-to-top" style="box-shadow: 0px 0px 9px 2px;"><i class="arrow_carrot-up"></i></a>
+
+
+
+<script>
+    function basvuruYap() {
+        var ad = document.getElementById('name').value;
+        var email = document.getElementById('email').value;
+        var hesapLink = document.getElementById('accountLink').value;
+        var mesaj = document.getElementById('message').value;
+
+
+        var basvuru = {
+            Ad: ad,
+            Email: email,
+            HesapLink: hesapLink,
+            Mesaj: mesaj
+        };
+
+        var data = JSON.stringify(basvuru);
+
+        $.ajax({
+            type: 'POST',
+            url: '/Home/AramizaKatilin',
+            data: data,
+            contentType: "application/json;charset=utf-8",
+            dataType: 'json',
+            success: function (data) {
+                if (data.Durum === true) {
+                    alert("başarılı : " + data.Mesaj);
+                } else {
+                    alert("başarısız : " + data.Mesaj);
+                }
+            }
+        });
+    }
+</script>
