@@ -12,7 +12,8 @@
 }
 @media (max-width: 1024px) {
     .hero-section{
-        height: 650px;
+        /*height: 650px;*/
+        margin-top:-10%;
     }
     h1{ line-height: 1; }
     .about-img {

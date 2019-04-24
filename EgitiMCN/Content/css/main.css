@@ -539,6 +539,7 @@ a, a:hover, .overlay, img, .form-control, .form-control:hover, button {
     margin-left: 10px;
     /*width: 200px;*/
     font-family: 'Montserrat', sans-serif;
+    white-space: nowrap;
 }
 
     .header-btn:hover {
@@ -1878,7 +1879,7 @@ ul.nav > li > a:hover {
 }
 
     .contact-wrap:before {
-        /*background-image: url(../img/color-shape.png);*/
+        /*background-image: url(../img/s-icon-1.png);*/
         background-repeat: no-repeat;
         background-position: top left;
         content: "";

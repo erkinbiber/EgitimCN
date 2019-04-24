@@ -579,7 +579,7 @@ pre {
         margin-bottom: 1rem;
         border: 0;
         border-top: 1px solid rgba(0,0,0,.1);
-        ox-sizing: content-box;
+        box-sizing: content-box;
         height: 0;
         overflow: visible;
     }
@@ -593,6 +593,10 @@ pre {
         border-radius: 50%;
     }
 
+    .hero-section
+    {
+        padding-top:9%!important;
+    }
     /*mobil için flip kaldýrabilirsin bunu denemek için*/
     /* entire container, keeps perspective */
     .flip-container {
@@ -679,7 +683,23 @@ pre {
 
 @media (max-width:575px) {
     .portfolio-box img {
-        width: 40%!important;
+        width: 34%!important;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px)
+{
+    .ErisimGenislik {
+        margin-right: -45px!important;
+        margin-left: -45px!important;
+    }
+}
+
+@media (max-width:240px)
+{
+    .header-btn {
+        margin-top: 3%;
+        margin-right: 30px !important;
     }
 }
 
@@ -695,7 +715,7 @@ pre {
     }
 
     .mobilresim {
-        width: 33%;
+        width: 30%;
     }
 
 
